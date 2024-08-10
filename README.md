@@ -1,10 +1,19 @@
 # Blood-Donation-and-Transfusion-Management-System
 
+## Introduction
+The Blood Donation and Transfusion Management System is a web-based platform designed to streamline the process of blood donation, storage, and transfusion. The system allows donors to register and schedule donation appointments, hospitals to request blood, and administrators to manage blood inventories and donor records. This system aims to improve the efficiency and reliability of blood donation and transfusion services.
+
 ## ER-Diagram 
 
 ![ER Diagram](https://github.com/shreedhar19oct/DBMS-Blood-donor-patient-mangement-system/assets/73355893/b9d4d260-1b09-405d-b420-de82451c3bc3)
 
-## Functions
+## Features
+- **Donor Registration**: Users can sign up as blood donors, providing personal details and health information.
+- **Appointment Scheduling**: Donors can book appointments at their convenience.
+- **Blood Inventory Management**: Real-time tracking of blood types and quantities available in the system.
+- **Hospital Requests**: Hospitals can request specific blood types for patients, and the system will match them with available inventory.
+- **Notifications**: Automated notifications for donors about upcoming appointments, and for hospitals regarding the status of their requests.
+- **User Roles**: Different roles including Admin, Donor, and Hospital staff, each with appropriate access and permissions.
 
 ### Admin
 - Create Admin account using following command
@@ -32,7 +41,6 @@ py manage.py createsuperuser
 - Donor can see their blood request history with status.
 - Donor can see number of blood request Made, Approved, Pending, Rejected by Admin on their dashboard.
 > **_NOTE:_**  Donor can donate blood and can also request for blood.
-
 
 
 
